@@ -1,0 +1,82 @@
+.button 
+{
+  border: medium none;
+  background-image: none; 
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  color: #D8BFD8;
+  cursor: pointer;
+  margin-top: 112px;
+  margin-left: 120px;
+
+}
+
+.button:hover 
+{
+color: #FF0000;
+}
+
+.kartinka {
+	margin-top: 40px;
+	border-radius: 25px;
+    cursor: pointer;
+}
+
+.blocks
+{
+	margin-top:20px ;
+    display: flex;
+    flex-flow: column wrap;
+    height: 350px;
+    width: 500px;
+}
+    
+  
+.wrapper
+ {
+ 	display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 100px;
+} 
+
+.blc1 
+{
+    background-color:#FF4500 ;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.blc2 
+{
+    background-color:#483D8B ;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.blc3  
+{
+    background-color:#800000 ;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.blc4 
+{
+    background-color:#778899 ;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+    margin: 10px;
+}
