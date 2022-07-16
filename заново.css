@@ -1,3 +1,5 @@
+p { font-family: Georgia, 'Times New Roman', Times, fantasy; }
+h1  { font-family: Geneva, Arial, Helvetica, fantasy; } 
 .button 
 {
   border: medium none;
@@ -30,6 +32,11 @@ color: #FF0000;
     flex-flow: column wrap;
     height: 350px;
     width: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+    margin: 10px;
 }
     
   
@@ -41,42 +48,25 @@ color: #FF0000;
     margin-left: 100px;
 } 
 
-.blc1 
-{
+
+.blc1 {
     background-color:#FF4500 ;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-start;
-    align-self: flex-end;
-    margin: 10px;
 }
 
 .blc2 
 {
     background-color:#483D8B ;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-start;
-    align-self: flex-end;
-    margin: 10px;
+   
 }
 
 .blc3  
 {
     background-color:#800000 ;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-start;
-    align-self: flex-end;
-    margin: 10px;
+    
 }
 
 .blc4 
 {
     background-color:#778899 ;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-start;
-    align-self: flex-end;
-    margin: 10px;
+    
 }
