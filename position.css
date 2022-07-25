@@ -1,0 +1,84 @@
+p {
+
+ font-family: Andale Mono, monospace;
+ padding: 0px;
+ margin: 0px; 
+ text-align: center;
+  }
+
+h1 {
+
+ font-family: Courier New, monospace; 
+ padding: 0px;
+ margin: 0px;}
+
+h3 {
+
+    font-family: URW Chancery L, cursive;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #8FBC8F;}
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+
+    text-align: center;
+} 
+
+.hdr1 {
+    
+margin-bottom: 10px;
+font-family: Andale Mono, monospace;
+}   
+
+.picture {
+
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.size {
+    margin-left: 55px;
+    margin-right: 55px;
+
+} 
+
+.wrapper {
+
+  display: flex;
+  
+}
+
+.wrapper1 {
+
+    display: flex; 
+    
+}
+
+.blocks {
+
+    width: 283px;
+    height: 240px;
+    margin: 0px 25px 60px 0px ;
+}
+
+
+
+.blc2 {
+    flex-grow: 1;
+    
+}
+.blc1 {
+    flex-grow: 5;
+}

@@ -1,7 +1,22 @@
-p { font-family: Georgia, 'Times New Roman', Times, fantasy; }
-h1  { font-family: Geneva, Arial, Helvetica, fantasy; } 
-.button 
-{
+p {
+
+ font-family: Georgia, 'Times New Roman', Times, fantasy; }
+
+h1 {
+
+ font-family: Geneva, Arial, Helvetica, fantasy; }
+
+body {
+
+    background-color: #FFDAB9;
+}
+
+.header {
+    text-align: center;
+}
+
+.button {
+
   border: medium none;
   background-image: none; 
   background: transparent;
@@ -10,23 +25,23 @@ h1  { font-family: Geneva, Arial, Helvetica, fantasy; }
   color: #D8BFD8;
   cursor: pointer;
   margin-top: 112px;
-  margin-left: 120px;
+  margin-left: 120px;}
 
-}
+.button:hover {
 
-.button:hover 
-{
-color: #FF0000;
-}
+color: #FF0000;}
 
-.kartinka {
+.btn1 {
+    margin-top: 80px;}
+
+.picture {
+
 	margin-top: 40px;
 	border-radius: 25px;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
-.blocks
-{
+.blocks {
+
 	margin-top:20px ;
     display: flex;
     flex-flow: column wrap;
@@ -36,37 +51,35 @@ color: #FF0000;
     display: flex;
     align-items: flex-start;
     align-self: flex-end;
-    margin: 10px;
-}
+    margin: 10px;}
     
-  
-.wrapper
- {
+  .wrapper {
+
  	display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-left: 100px;
-} 
+    margin-left: 100px;} 
 
 
 .blc1 {
-    background-color:#FF4500 ;
-}
 
-.blc2 
-{
-    background-color:#483D8B ;
-   
-}
+    background-color:#FF4500; }
 
-.blc3  
-{
-    background-color:#800000 ;
-    
-}
+.blc2 {
 
-.blc4 
-{
-    background-color:#778899 ;
-    
-}
+    background-color:#483D8B; }
+
+.blc3  {
+
+    background-color:#800000; }
+
+.blc4 {
+
+    background-color:#778899; }
+
+.blocks, .blc1, .blc2, .blc3, .blc4 {
+
+    padding-left:35px; }
+
+
+
